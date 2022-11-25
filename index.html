@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="shrotcut icon" href="/img/e.png">
+    <title>EPESP</title>
+</head>
+<body style="background-color: #E0E0E0;">
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #45A1B5;">
+        <div class="container-fluid">
+            <div class="col-sm-1" style="margin-right: 20px;">
+                <a class="navbar-brand text-white text-uppercase fs-2 fw-bold" href="#">epesp</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="col-sm-5"  style="margin-right: 80px;">
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                    </form>
+                </div>
+                <div class="col-sm-6">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0 justify-content-end">
+                        <li class="nav-item" style="margin-right: 50px;">
+                            <a class="nav-link text-uppercase text-white" href="#sobre">sobre</a>
+                        </li>
+                        <li class="nav-item" style="margin-right: 50px;">
+                            <a class="nav-link text-uppercase text-white" href="#">matrícula</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="/login/login.html">login</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide mb-5" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="#sobre"><img src="/img/SaladeAulacarrossel (1).jpg" class="d-block w-100" alt="imagem de sala de aula"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="/materiais/materiais.html"><img src="/img/materialcarrossel (2).jpg" class="d-block w-100" alt="imagem de materiais escolares"></a>
+            </div>
+            <div class="carousel-item">
+                <a href="/uniforme/uniforme.html"><img src="/img/alunoscarrossel (1).jpg" class="d-block w-100" alt="imagem de uniformes escolares"></a>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    
+    <div class="container text-center mb-2">
+        <div class="row">
+            <div class="col-sm-4 mb-3">
+                <a data-bs-toggle="collapse" href="#collapseExample1" aria-expanded="false" aria-controls="collapseExample"><img src="/img/boletim escolar.jpg" class="img-fluid rounded mx-auto d-block mb-1 p-0" alt="boletim escolar"></a>
+                <div class="collapse" id="collapseExample1">
+                    <div class="card card-body" style="text-align: justify;">
+                        Nesta sessão, você poderá ter acesso ao dados do boletim escolar do aluno. Para isso, será necessário que tenha em mãos os dados cadastrais dele, exclusivamente, sua data de nascimento e seu Registro de Aluno (RA).
+                        <a href="/boletim/boletim.html" class="btn btn-primary mt-3">Ir</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <a data-bs-toggle="collapse" href="#collapseExample2" aria-expanded="true" aria-controls="collapseExample"><img src="/img/uniforme escolar preto.jpg" class="img-fluid rounded mx-auto d-block mb-1 p-0" alt="uniforme escolar"></a>
+                <div class="collapse" id="collapseExample2">
+                    <div class="card card-body" style="text-align: justify;">
+                        Está sem uniforme? Não se preocupe! Aqui você pode solicitá-lo e retirar em sua escola EPESP local. Lembre-se, o uniforme é muito importante para a sua segurança e para a paz mental do professor.
+                        <a href="/uniforme/uniforme.html" class="btn btn-primary mt-3">Ir</a>
+                    </div>
+                </div>            
+            </div>
+            <div class="col-sm-4">
+                <a data-bs-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample"><img src="/img/material escolar.jpg" class="img-fluid rounded mx-auto d-block mb-1 p-0" alt="material escolar"></a>
+                <div class="collapse" id="collapseExample3">
+                    <div class="card card-body" style="text-align: justify;">
+                        Caso você esteja sem material suficiente para as suas aulas diárias, clique nesta sessão! Aqui, você poderá consultar os materiais disponíveis para a compra! Dentro 48 horas, o seu material chegará em sua escola, onde poderá coletá-lo.
+                        <a href="/materiais/materiais.html" class="btn btn-primary mt-3">Ir</a>
+                    </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="container mb-5" style="height: 1px; background-color: #45A1B5;">
+
+    </div>
+
+
+    <div class="container" id="sobre">
+        <h1 class="fw-bold mb-3" style="color:black; text-align: center;">SOBRE A EPESP</h1>
+        
+        <p class="fs-4" style="color:black ; text-align: center">“O ser humano é aquilo que a educação faz dele.” <em>Immanuel Kant</em></p>
+        <p class="fs-4" style="color: black; text-align: justify">Fundada no ano de 2022, a Escola Particular Estadual de São Paulo tem como meta preparar o aluno para o mercado de trabalho, através de um ensino de qualidade, professores qualificados e infraestrutura adequada e segura para o desenvolvimento do estudante. A EPESP possui um sistema de ensino baseado na capacitação do aluno a partir de habilidades como liderança, trabalho em equipe, inteligência emocional, comunicação, empatia e raciocínio lógico, extremamente importantes no contexto da sociedade atual.
+        </p>
+        <p class="fs-4" style="color: black; text-align: justify">Assista ao trecho da palestra do filósofo e educador Mario Sergio Cortella que representa a filosofia de ensino de nossa escola:</p>
+
+        <br>
+        
+        <div class="embed-responsive embed-responsive-16by9 text-center">
+            <iframe class="embed-responsive-item w-75" style="height: 500px;" src="https://www.youtube.com/embed/grobFdFDyF8" title="Qual é o papel da escola | Mário Sérgio Cortella" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    
+
+    </div>
+
+     <br>
+     <br>
+     <br>
+
+     <nav class="container-fluid p-3 bg-dark bg-opacity-25 text-center">
+        <div class="row">
+          <div class="col-xxl-3 mx-auto">
+            <p class="navbar-brand text-black fs-5  fw-bold text-uppercase d-block">redes sociais</p>
+            <a href="https://www.facebook.com/senainacional" target="_blank"><img src="/img/facebook 1.png" class="mb-3" alt="ícone do facebook" style="width: 35px; margin-right: 15px;"></a>
+            <a href="https://www.youtube.com/c/senaibrasil" target="_blank"><img src="/img/youtube 1.png" class="mb-3" alt="ícone do youtube" style="width: 35px; margin-right: 15px;"></a>
+            <a href="https://www.instagram.com/senai.suico/" target="_blank"><img src="/img/instagram (1) 1.png" class="mb-3" alt="ícone do instagram" style="width: 35px; margin-right: 15px;"></a>
+            <a href="https://twitter.com/SENAInacional" target="_blank"><img src="/img/twitter 1.png" class="mb-3" alt="ícone do twitter" style="width: 35px; margin-right: 15px;"></a>
+          </div>
+  
+          <div class="col-xxl-6 mx-auto">
+            <p class="navbar-brand text-black fs-5 mb-2 fw-bold text-uppercase">como chegar?</p>
+            <a href="https://www.google.com.br/maps/place/Escola+Senai+Suíço-Brasileira+Paulo+Ernesto+Tolle/@-23.6481296,-46.722224,17z/data=!4m6!3m5!1s0x94ce510e8d3746ed:0x3e9f3a76e1ebfb69!8m2!3d-23.648051!4d-46.7217358!16s%2Fg%2F1wk7rz_s" class="text-black fs-5 " style="text-align: justify; text-decoration: none;">R. Bento Branco de Andrade Filho, 379 - Santo Amaro, São Paulo - SP, 04757-000</a>
+          </div>
+  
+          <div class="col-xxl-3 mx-auto">
+            <p class="navbar-brand text-black fs-5 mb-2 fw-bold text-uppercase">Fale conosco</p>
+            <a class="d-block fs-6" href="index.html" target="_blank" style="text-decoration: none; color: black">(11) 91234-5678</a>
+            <a class="d-block fs-6" href="index.html" target="_blank" style="text-decoration: none; color: black">(11) 98765-4321</a>
+          </div>
+  
+        </div>
+      </nav>
+</body>
+</html>
